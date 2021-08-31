@@ -1,0 +1,50 @@
+<mvc:View
+    controllerName="com.sfc.layout.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                    <VBox>
+                        <Panel headerText="FlexBox - alignItems : Start, justifyContent : Start / (Upper left)">
+                            <FlexBox
+                                height="100px"
+                                alignItems="Start"
+                                justifyContent="Start">
+                                <Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+                                <Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+                                <Button text="3" type="Accept" />
+                            </FlexBox>
+                        </Panel>
+                    </VBox>
+                    <VBox>    
+                        <Panel headerText="FlexBox - alignItems : Center, justifyContent : Center / (Middle Center)">
+                            <FlexBox
+                                height="100px"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+                                <Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+                                <Button text="3" type="Accept" />
+                            </FlexBox>
+                        </Panel>
+                    </VBox>
+                    <VBox>
+                        <Panel headerText="FlexBox - alignItems : End, justifyContent : End (End left)">
+                            <FlexBox
+                                height="100px"
+                                alignItems="End"
+                                justifyContent="End">
+                                <Button text="1" type="Emphasized" class="sapUiSmallMarginEnd" />
+                                <Button text="2" type="Reject" class="sapUiSmallMarginEnd" />
+                                <Button text="3" type="Accept" />
+                            </FlexBox>
+                        </Panel>
+                    </VBox>                    
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
