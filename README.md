@@ -1,3 +1,8 @@
+## SAP Fiori Cafe / SAPUI5 Beginner - UNIT 6 : SAPUI5 Layout - LayoutData, GridData span
+
+Source description can be found at the following address.
+https://cafe.naver.com/sapux/119
+
 ## Application Details
 |               |
 | ------------- |
