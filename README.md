@@ -2,11 +2,11 @@
 
 ## SAPUI5 Beginner UNIT 6 : SAPUI5 Layouts control
 
-### Exercise 7 : Create Form Layout
+### Exercise 8 : Using the FlexBox Control [LayoutData, GridData span]
 
 Source description can be found at the following address.
 
-https://cafe.naver.com/sapux/111
+https://cafe.naver.com/sapux/119
 
 ## Application Details
 |               |
